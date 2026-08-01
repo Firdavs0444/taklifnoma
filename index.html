@@ -518,7 +518,7 @@
   function getTargetDate(){
     const now = new Date();
     let year = now.getFullYear();
-    let target = new Date(year, 9, 2, 17, 0, 0); // month index 9 = Oktabr
+    let target = new Date(year, 9, 2, 18, 0, 0); // month index 9 = Oktabr
     if(target < now){ target = new Date(year + 1, 9, 2, 18, 0, 0); }
     return target;
   }
